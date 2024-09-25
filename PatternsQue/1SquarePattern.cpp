@@ -28,16 +28,36 @@ using namespace std;
 
 // for star pattern
 // ................................
+// int main()
+// {
+//     int i,j,n;
+//     cout<<"Enter the n:";
+//     cin>>n;
+//     for(i=1; i<n; i++)
+//     {
+//         for(j=1; j<=n; j++)
+//         {
+//             cout<<"*"<<" ";
+//         }
+//         cout<<endl;
+//     }
+//     return 0;
+// }
+
+//for characters
+//...........................................
 int main()
 {
     int i,j,n;
     cout<<"Enter the n:";
     cin>>n;
-    for(i=1; i<n; i++)
+    for(i=0; i<=n; i++)
     {
-        for(j=1; j<=n; j++)
+        char ch='A';
+        for(j=0; j<=n; j++)
         {
-            cout<<"*"<<" ";
+            cout<<ch<<" ";
+            ch=ch+1;
         }
         cout<<endl;
     }
